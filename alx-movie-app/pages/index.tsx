@@ -19,11 +19,11 @@ const Home: React.FC = () => {
           </h1>
           <p className="text-lg md:text-2xl mb-8 max-w-2xl">
             Explore the latest blockbuster movies, critically acclaimed films,
-            and your personal favorites – all in one place.
+            and your personal favorites – all in one place today.
           </p>
           <Button
             title="Browse Movies"
-            action={() => router.push("/moves", undefined, { shallow: false })}
+            action={() => router.push("/movies", undefined, { shallow: false })}
           />
         </div>
       </section>
